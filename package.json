@@ -1,13 +1,18 @@
 {
   "name": "hover-tooltips-hdevtools",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Show types for identifiers in Haskell source, using hdevtools",
   "main": "lib/hover-tooltips-hdevtools",
   "repository": {
     "type": "git",
     "url": "https://github.com/ranjitjhala/hover-tooltips-hdevtools"
   },
-  "keywords": ["atom", "tooltips","haskell", "ide"],
+  "keywords": [
+    "atom",
+    "tooltips",
+    "haskell",
+    "ide"
+  ],
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
