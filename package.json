@@ -1,6 +1,6 @@
 {
   "name": "hover-tooltips-hdevtools",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Show types for identifiers in Haskell source, using hdevtools",
   "main": "lib/hover-tooltips-hdevtools",
   "repository": {
