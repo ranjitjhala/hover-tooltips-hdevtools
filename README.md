@@ -4,7 +4,7 @@ This [Atom](http://atom.io) package displays the type
 of an identifier (in a Haskell source file) as a tooltip.
 The type is obtained using `hdevtools`.
 
-![Screenshot of hover-tooltips-hdevtools](https://github.com/fixme)
+![Screenshot of hover-tooltips-hdevtools](https://raw.githubusercontent.com/ranjitjhala/hover-tooltips-hdevtools/master/screenshot.png)
 
 ## Usage
 
@@ -23,5 +23,5 @@ which will quickly lint source and highlight errors etc.
 
 ## Inspirations
 
-+ ![ide-haskell](http://atom-haskell.github.io/ide-haskell)
-+ ![atom-typescript](https://github.com/TypeStrong/atom-typescript)
++ [ide-haskell](http://atom-haskell.github.io/ide-haskell)
++ [atom-typescript](https://github.com/TypeStrong/atom-typescript)
