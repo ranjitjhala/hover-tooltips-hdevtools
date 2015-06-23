@@ -16,6 +16,11 @@ The type is obtained using `hdevtools`.
 with [linter-hdevtools](https://github.com/ranjitjhala/linter-hdevtools.git)
 which will quickly lint source and highlight errors etc.
 
+## Configuration
+
++ Tweak `styles/hover-tooltips-hdevtools.less` to change fonts etc.
++ Tweak `executablePath` if your `hdevtools` is hiding outside of `$PATH`
+
 ## Inspirations
 
 + ![ide-haskell](http://atom-haskell.github.io/ide-haskell)

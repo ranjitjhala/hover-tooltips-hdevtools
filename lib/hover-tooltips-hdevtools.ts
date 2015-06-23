@@ -25,8 +25,8 @@ function hdevtoolsResult(msg:string[]):string{
 }
 
 function hdevtoolsCommand(p:Hover.Position):Hover.Command {
-  var execP   = atom.config.get('hover-tooltips.executablePath');
-  var socketP = atom.config.get('hover-tooltips.socketPath');
+  var execP   = atom.config.get('hover-tooltips-hdevtools.executablePath');
+  var socketP = atom.config.get('hover-tooltips-hdevtools.socketPath');
   // var cwd     = '/Users/rjhala/tmp/'; // path.dirname(p.file);
 
   return { cmd: execP
