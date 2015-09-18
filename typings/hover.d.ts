@@ -15,9 +15,9 @@ declare module Hover {
   }
 
   export interface Error {
-    file:string;
-    start:Position;
-    end:Position;
+    start   : Position;
+    stop    : Position;
+    message : string;
   }
 
   export interface Info {
@@ -25,7 +25,7 @@ declare module Hover {
     info:string;
   }
 
-  export type IProvider = (p:Position) => Q.Promise<Info>;
+  export type IProvider = (p:Position, text:string) => Q.Promise<Info>;
 
   export type Eprovider = (f:string) => Q.Promise<Error[]>;
 
