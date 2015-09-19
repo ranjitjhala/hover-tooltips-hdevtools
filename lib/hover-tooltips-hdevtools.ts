@@ -1,6 +1,6 @@
 /// <reference path="../typings/hover.d.ts" />
 
-import {HoverTooltips, provider, debug} from './hover-tooltips';
+import {HoverTooltips, provider, debug} from 'hover-tooltips';
 
 function hdevtoolsResult(msg:string[]):string{
   try {
